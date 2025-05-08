@@ -19,7 +19,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} className="w-12 h-15" alt="logo" />
+          <img src={logo} style={{ maxHeight: "3rem" }} className="w-12 h-12 sm:w-16 sm:h-16 transform scale-150 object-contain" alt="logo" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Priyadarsini &nbsp;
             <span className="sm:block hidden">| Dollu</span>

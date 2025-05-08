@@ -20,7 +20,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
             I am PriyaDarsini Dollu, a passionate software developer with
             <br className="sm:block hidden" />
-            &nbsp; 2 years in building WebApps
+            &nbsp; 2 years of Experience in building WebApps
           </p>
         </div>
       </div>

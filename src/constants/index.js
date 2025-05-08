@@ -21,7 +21,8 @@ import {
   dotnetCerticication,
   reactHacker,
   ReactCertification,
-  udemy
+  udemy,
+  hackerRank
 } from "../assets";
 export const navLinks = [
   {
@@ -238,7 +239,7 @@ const achievements = [
   {
     name: "Certificate of Accomplishment Frontend (React)",
     issuedBy: "Hacker Rank",
-    icon: udemy,
+    icon: hackerRank,
     skills: [
       {
         name: "React Js",
