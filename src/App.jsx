@@ -11,17 +11,20 @@ import {
   Certifications,
   Achievements,
 } from "./components";
-// import { useEffect } from "react";
-// import mixpanel from "./lib/mixpanel"
-function App() {
-  // useEffect(() => {
-  //   mixpanel.track('Page Viewed', { page: 'Home' });
-//     mixpanel.identify(user.id);
-// mixpanel.people.set({
-//   $email: user.email,
-//   $name: user.name,
+import { useEffect } from "react";
+import mixpanel from "./lib/mixpanel"
 
-  // },[])
+function App() {
+
+  useEffect(() => {
+    mixpanel.track('Page Viewed', { page: 'Home' });
+    mixpanel.identify(user.id);
+mixpanel.people.set({
+  $email: user.email,
+  $name: user.name,
+  });
+}
+  ,[])
   return (
     <>
       <BrowserRouter>
