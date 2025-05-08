@@ -18,11 +18,11 @@ function App() {
 
   useEffect(() => {
     mixpanel.track('Page Viewed', { page: 'Home' });
-    mixpanel.identify(user.id);
-mixpanel.people.set({
-  $email: user.email,
-  $name: user.name,
-  });
+    // mixpanel.identify(user.id);
+// mixpanel.people.set({
+//   $email: user.email,
+//   $name: user.name,
+//   });
 }
   ,[])
   return (
