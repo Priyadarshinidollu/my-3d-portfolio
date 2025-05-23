@@ -38,7 +38,7 @@ const About = () => {
       >
         I am a Passionate Software Developer with 2 years of professional experience and
         specializing in FullStack development
-        using .NET Core and React js. I have expertise in building scalable and secure API`s.
+        using Node.js and React js. I have expertise in building scalable and secure API`s.
         Proficient in designing Rest APIs, integrating third-party services,
         and optimizing database performance with MySQL and MongoDB.
         Experienced in working within Agile teams, implementing real-time

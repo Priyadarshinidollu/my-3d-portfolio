@@ -14,6 +14,7 @@ import {
   git,
   Cognizant,
   dotnet,
+  nodejs,
   azure,
   mysql,
   // certification
@@ -101,11 +102,14 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "DotNet Core WebApi",
-    icon: dotnet,
-  },
-
+  // {
+  //   name: "DotNet Core WebApi",
+  //   icon: dotnet,
+  // },
+{
+  name:"Node.js",
+  icon: nodejs
+},
   {
     name: "git",
     icon: git,
@@ -121,50 +125,48 @@ const experiences = [
     iconBg: "#ffff",
     date: "Feb 2022 - Aug 2022",
     points: [
-      "Developed a full-stack Portfolio Management Application using .NET (C#) for backend APIs, React for dynamic frontend interfaces, and MySQL for secure data storage",
+      "Developed a full-stack Portfolio Management Application using Node.js for backend APIs, React for dynamic frontend interfaces, and MySQL for secure data storage.",
       "Integrated RESTful APIs to fetch real-time market data (stocks, mutual funds, ETFs) and update portfolio metrics dynamically.",
     ],
   },
   {
-    title: "Programmer Analyst - Full Stack Engineer",
+    title: "Programmer Analyst - Full Stack Engineer (Microsoft Virtual Development)",
     company_name: "Cognizant Technology Solutions",
     icon: Cognizant,
     iconBg: "#ffff",
     date: "June 2023 - March 2024",
     points: [
-      "Developed a feature-rich Music Store Application using React for an intuitive and responsive frontend, enhancing user experience with smooth navigation and interactive UI components.",
-      "Built reusable React components for music browsing, playlists, audio playback, and user libraries, ensuring maintainability and scalability of the frontend codebase.",
-      "Implemented backend services in .NET (C#) to manage user authentication, product catalogs, order processing, and streaming APIs.",
+      "Developed internal tools and dashboards using React and Node.js for Microsoft Virtual Development environments.",
+      "Built frontend interfaces using React, including routing, state management, and reusable components for a modular structure.",
+      "Implemented backend logic in Node.js to interact with Microsoft Azure APIs and internal databases.",
+      "Collaborated with Microsoft stakeholders to improve tool usability and performance in virtualized cloud environments.",
     ],
   },
   {
-    title: "Programmer Analyst - Full Stack Engineer(Build Engineer)",
+    title: "Programmer Analyst - Full Stack Engineer (Microsoft System Center)",
     company_name: "Cognizant Technology Solutions",
     icon: Cognizant,
     iconBg: "#E6DEDD",
     date: "April 2024 - Oct 2024",
     points: [
-      "Managed and maintained CI/CD pipelines for Microsoft System Center builds using Azure DevOps and 1ES, ensuring reliable and consistent delivery across environments",
-     ,
-     "Monitored and troubleshot build processes using Visual Studio, 1ES dashboards, and log tracing to quickly identify and resolve build failures and performance bottlenecks.",
-
-     "Automated repetitive build and deployment tasks using PowerShell scripting, improving efficiency and reducing manual errors.",
-     "Integrated security and compliance checks into the pipeline to address vulnerability management, including scanning for outdated dependencies and applying security patches."
+      "Built and maintained full-stack solutions for Microsoft System Center using React and Node.js.",
+      "Developed dynamic UI components for system monitoring, alerting, and configuration tasks using React.",
+      "Created secure REST APIs with Node.js to integrate with Microsoft infrastructure services and automate management workflows.",
+      "Improved application reliability and scalability through refactoring and performance optimization.",
     ],
   },
   {
-    title: " Frontend Developer (Self-Learning)",
+    title: "Full Stack Developer Node.js (Self-Learning)",
     company_name: "Self Development",
     icon: "https://images.emojiterra.com/google/android-12l/512px/1f4d8.png",
     iconBg: "#E6DEDD",
     date: "Nov 2024 - Present",
     points: [
-      "Built several personal projects using React, integrating REST APIs and implementing routing, hooks, and state management.",
-    "Learned advanced React concepts like hooks, context API, router, and state management.",
-  ,
-  `Earned multiple certifications and completed coding challenges on HackerRank:
-   🏅 HackerRank React (Intermediate) Certificate`
-],
+      "Built several personal projects using Node.js, integrating REST APIs and implementing routing, hooks, and state management.",
+      "Learned advanced React concepts like hooks, context API, router, and state management.",
+      `Earned multiple certifications and completed coding challenges on HackerRank:
+       🏅 HackerRank React (Intermediate) Certificate`,
+    ],
   },
 ];
 

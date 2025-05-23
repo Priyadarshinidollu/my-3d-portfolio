@@ -26,7 +26,7 @@ import postgres from "./tech/postgres.png";
 import mysql from "./tech/mysql.png";
 import dotnet from "./tech/dotnet.png";
 import azure from "./tech/Azure.png";
-
+import nodejs from "./tech/nodejs.png";
 import blocktena from "./company/blocktena.png";
 import leagueSportsCo from "./company/lsc.jpg";
 import LinkedIn from "./company/linkedin_logo.jpg";
@@ -56,6 +56,7 @@ export {
   javascript,
   mongodb,
   reactjs,
+  nodejs,
   hackerRank,
   nextjs,
   redis,
