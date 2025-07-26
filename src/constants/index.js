@@ -23,7 +23,7 @@ import {
   reactHacker,
   ReactCertification,
   udemy,
-  hackerRank
+  hackerRank,
 } from "../assets";
 export const navLinks = [
   {
@@ -93,7 +93,7 @@ const technologies = [
     name: "Azure",
     icon: azure,
   },
- 
+
   {
     name: "MySQL",
     icon: mysql,
@@ -102,19 +102,18 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+  {
+    name: "DotNet Core WebApi",
+    icon: dotnet,
+  },
   // {
-  //   name: "DotNet Core WebApi",
-  //   icon: dotnet,
+  //   name: ".Net",
+  //   icon: nodejs,
   // },
-{
-  name:"Node.js",
-  icon: nodejs
-},
   {
     name: "git",
     icon: git,
   },
-  
 ];
 
 const experiences = [
@@ -125,20 +124,21 @@ const experiences = [
     iconBg: "#ffff",
     date: "Feb 2022 - Aug 2022",
     points: [
-      "Developed a full-stack Portfolio Management Application using Node.js for backend APIs, React for dynamic frontend interfaces, and MySQL for secure data storage.",
+      "Developed a full-stack Portfolio Management Application using .Net for backend APIs, React for dynamic frontend interfaces, and MySQL for secure data storage.",
       "Integrated RESTful APIs to fetch real-time market data (stocks, mutual funds, ETFs) and update portfolio metrics dynamically.",
     ],
   },
   {
-    title: "Programmer Analyst - Full Stack Engineer (Microsoft Virtual Development)",
+    title:
+      "Programmer Analyst - Full Stack Engineer (Microsoft Virtual Development)",
     company_name: "Cognizant Technology Solutions",
     icon: Cognizant,
     iconBg: "#ffff",
     date: "June 2023 - March 2024",
     points: [
-      "Developed internal tools and dashboards using React and Node.js for Microsoft Virtual Development environments.",
+      "Developed internal tools and dashboards using React and .Net for Microsoft Virtual Development environments.",
       "Built frontend interfaces using React, including routing, state management, and reusable components for a modular structure.",
-      "Implemented backend logic in Node.js to interact with Microsoft Azure APIs and internal databases.",
+      "Implemented backend logic in .Net to interact with Microsoft Azure APIs and internal databases.",
       "Collaborated with Microsoft stakeholders to improve tool usability and performance in virtualized cloud environments.",
     ],
   },
@@ -149,20 +149,19 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "April 2024 - Oct 2024",
     points: [
-      "Built and maintained full-stack solutions for Microsoft System Center using React and Node.js.",
+      "Built and maintained full-stack solutions for Microsoft System Center using React and .Net.",
       "Developed dynamic UI components for system monitoring, alerting, and configuration tasks using React.",
-      "Created secure REST APIs with Node.js to integrate with Microsoft infrastructure services and automate management workflows.",
+      "Created secure REST APIs with .Net to integrate with Microsoft infrastructure services and automate management workflows.",
       "Improved application reliability and scalability through refactoring and performance optimization.",
     ],
   },
   {
-    title: "Full Stack Developer Node.js (Self-Learning)",
+    title: "Full Stack Developer .Net (Self-Learning)",
     company_name: "Self Development",
     icon: "https://images.emojiterra.com/google/android-12l/512px/1f4d8.png",
     iconBg: "#E6DEDD",
     date: "Nov 2024 - Present",
     points: [
-      "Built several personal projects using Node.js, integrating REST APIs and implementing routing, hooks, and state management.",
       "Learned advanced React concepts like hooks, context API, router, and state management.",
       `Earned multiple certifications and completed coding challenges on HackerRank:
        🏅 HackerRank React (Intermediate) Certificate`,
@@ -228,16 +227,13 @@ const certifications = [
         name: "MySQL",
         color: "green-text-gradient",
       },
-      
     ],
-    image:
-      azureSql,
+    image: azureSql,
     // link: "https://media.licdn.com/dms/image/v2/C561FAQEnvUHtcwmvLw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1671870014540?e=1733990400&v=beta&t=QRhF2UfkXmehKMoUZvJ_8HIJziyxHiPKGVS1lfrsVxY",
   },
 ];
 
 const achievements = [
-  
   {
     name: "Certificate of Accomplishment Frontend (React)",
     issuedBy: "Hacker Rank",

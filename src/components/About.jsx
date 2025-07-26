@@ -36,14 +36,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Passionate Software Developer with 2 years of professional experience and
-        specializing in FullStack development
-        using Node.js and React js. I have expertise in building scalable and secure API`s.
-        Proficient in designing Rest APIs, integrating third-party services,
-        and optimizing database performance with MySQL and MongoDB.
-        Experienced in working within Agile teams, implementing real-time
-        features, and collaborating with DevOps build Team and also monitoring and managing builds.
-    
+        I am a Passionate Software Developer with 2 years of professional
+        experience and specializing in FullStack development using .Net and
+        React js. I have expertise in building scalable and secure API`s.
+        Proficient in designing Rest APIs, integrating third-party services, and
+        optimizing database performance with MySQL and MongoDB. Experienced in
+        working within Agile teams, implementing real-time features, and
+        collaborating with DevOps build Team and also monitoring and managing
+        builds.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
